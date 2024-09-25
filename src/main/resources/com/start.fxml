@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="800.0" prefWidth="800.0" alignment="CENTER" spacing="30"
+      xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.Start">
+    <Label alignment="CENTER" prefHeight="100" prefWidth="600.0" text="五子棋游戏"
+           style="-fx-font-size: 40"/>
+    <Button fx:id="robot"  prefHeight="70" prefWidth="150"
+            text="人机模式" style="-fx-font-size: 20" onAction="#start"/>
+    <Button fx:id="doublePlayer"  prefHeight="70" prefWidth="150" style="-fx-font-size: 20"
+            text="双人模式" onAction="#start"/>
+
+    <Button fx:id="singlePlayer"  prefHeight="70" prefWidth="150" style="-fx-font-size: 20"
+            text="单人模式" onAction="#start"/>
+
+    <Button fx:id="exit" layoutX="250.0" layoutY="400.0" mnemonicParsing="false" prefHeight="70" prefWidth="150"
+            text ="退出游戏" onAction="#exit" style="-fx-font-size: 20"/>
+</VBox>
